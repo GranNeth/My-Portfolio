@@ -1,0 +1,116 @@
+/*FORDA HEADER*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(64, 3, 73);
+    padding: 10px 30px;
+    min-height: 120px;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+}
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    list-style: none;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    color: gold;
+    text-shadow:
+        0 0 5px gold,
+        0 0 10px gold,
+        0 0 20px goldenrod;
+}
+ 
+
+/*Contents*/
+img{
+    border-radius: 150px;
+    border: 5px dashed purple;
+    width: 250px;
+    height: 250px;
+    margin-left: 42%; 
+    margin-top: 30px;
+}
+
+main{
+    border: 3px solid purple;
+    border-radius: 5px;
+    height: 1000px;
+    width: 1381px;
+    background: rgb(195, 177, 225);
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 5px;
+    color: antiquewhite;
+    font-size: 50px;
+    line-height: 1px;
+    margin-top: 40px;   
+}  
+
+p{
+    text-align: center;
+    font-weight: lighter;
+    font-style: justify;
+    font-size: 25px;
+    color:rgb(85, 6, 81);
+    margin-top: 30px;
+}
+
+.contact-info{
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color: rgb(45, 6, 65);
+    line-height: 1.6;
+}
+
+.contact-info span{
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+    font-style: justify;
+    font-size: 20px;
+    color:rgb(85, 6, 81);
+    margin-top: 30px;
+}
+
+h3{
+    margin-left: 40%;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    color:rgb(45, 6, 65); 
+}
+
